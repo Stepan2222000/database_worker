@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  avito_zamer_db:
+    image: postgres:16
+    container_name: avito_zamer_db
+    restart: always
+    env_file: .env
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - avito_zamer_data:/var/lib/postgresql/data
+
+
+volumes:
+  avito_zamer_data:

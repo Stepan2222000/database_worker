@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  ebay_db:
+    image: postgres:16
+    container_name: ebay_db
+    restart: always
+    env_file: .env
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - ebay_data:/var/lib/postgresql/data
+volumes:
+  ebay_data:
