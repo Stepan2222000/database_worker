@@ -1,0 +1,386 @@
+
+# postgres-docker/compose.yaml
+name: pg-stacks
+
+services:
+
+
+
+
+
+  ebay:
+    image: postgres:latest
+    command: ["postgres", "-c", "shared_buffers=6000MB"]
+    container_name: ebay_db
+    env_file: .env.ebay
+    ports:
+      - "5401:5432"
+    volumes:
+      - ./data/ebay:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  avito_zamer:
+    image: postgres:latest
+    command: ["postgres", "-c", "shared_buffers=4000MB"]
+    container_name: avito_zamer_db
+    env_file: .env.avito_zamer
+    ports:
+      - "5402:5432"
+    volumes:
+      - ./data/avito_zamer:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  parts_admin:
+    image: postgres:latest
+    container_name: parts_admin_db
+    env_file: .env.parts_admin
+    ports:
+      - "5403:5432"
+    volumes:
+      - ./data/parts_admin:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  parts_info:
+    image: postgres:latest
+    container_name: parts_info_db
+    env_file: .env.parts_info
+    ports:
+      - "5404:5432"
+    volumes:
+      - ./data/parts_info:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ebay_admin:
+    image: postgres:latest
+    container_name: ebay_admin_db
+    env_file: .env.ebay_admin
+    ports:
+      - "5405:5432"
+    volumes:
+      - ./data/ebay_admin:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ebay_test:
+    image: postgres:latest
+    container_name: ebay_test_db
+    env_file: .env.ebay_test
+    ports:
+      - "5406:5432"
+    volumes:
+      - ./data/ebay_test:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ebay_v2:
+    image: postgres:latest
+    container_name: ebay_v2_db
+    env_file: .env.ebay_v2
+    ports:
+      - "5407:5432"
+    volumes:
+      - ./data/ebay_v2:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ebay_toster:
+    image: postgres:latest
+    container_name: ebay_toster_db
+    env_file: .env.ebay_toster
+    ports:
+      - "5408:5432"
+    volumes:
+      - ./data/ebay_toster:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ebayingtist:
+    image: postgres:latest
+    container_name: ebayingtist_db
+    env_file: .env.ebayingtist
+    ports:
+      - "5409:5432"
+    volumes:
+      - ./data/ebayingtist:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  rrrrrrr:
+    image: postgres:latest
+    container_name: rrrrrrr_db
+    env_file: .env.rrrrrrr
+    ports:
+      - "5410:5432"
+    volumes:
+      - ./data/rrrrrrr:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  capcha:
+    image: postgres:latest
+    container_name: capcha_db
+    env_file: .env.capcha
+    ports:
+      - "5411:5432"
+    volumes:
+      - ./data/capcha:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  decentralization:
+    image: postgres:latest
+    container_name: decentralization_db
+    env_file: .env.decentralization
+    ports:
+      - "5412:5432"
+    volumes:
+      - ./data/decentralization:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  zamer_avito_system:
+    image: postgres:latest
+    container_name: zamer_avito_system_db
+    env_file: .env.zamer_avito_system
+    ports:
+      - "5413:5432"
+    volumes:
+      - ./data/zamer_avito_system:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  avito_seller_checker:
+    image: postgres:latest
+    container_name: avito_seller_checker_db
+    env_file: .env.avito_seller_checker
+    ports:
+      - "5414:5432"
+    volumes:
+      - ./data/avito_seller_checker:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  avito_new_predlojen:
+    image: postgres:latest
+    container_name: avito_new_predlojen_db
+    env_file: .env.avito_new_predlojen
+    ports:
+      - "5415:5432"
+    volumes:
+      - ./data/avito_new_predlojen:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  avito_tasker:
+    image: postgres:latest
+    container_name: avito_tasker_db
+    env_file: .env.avito_tasker
+    ports:
+      - "5416:5432"
+    volumes:
+      - ./data/avito_tasker:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  system_avito_zamer:
+    image: postgres:latest
+    container_name: system_avito_zamer_db
+    env_file: .env.system_avito_zamer
+    ports:
+      - "5417:5432"
+    volumes:
+      - ./data/system_avito_zamer:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  ekaterina:
+    image: postgres:latest
+    container_name: ekaterina_db
+    env_file: .env.ekaterina
+    ports:
+      - "5418:5432"
+    volumes:
+      - ./data/ekaterina:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  zamer_sys:
+    image: postgres:latest
+    container_name: zamer_sys_db
+    env_file: .env.zamer_sys
+    ports:
+      - "5419:5432"
+    volumes:
+      - ./data/zamer_sys:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  diek:
+    image: postgres:latest
+    container_name: diek_db
+    env_file: .env.diek
+    ports:
+      - "5420:5432"
+    volumes:
+      - ./data/diek:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  eb:
+    image: postgres:latest
+    container_name: eb_db
+    env_file: .env.eb
+    ports:
+      - "5421:5432"
+    volumes:
+      - ./data/eb:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  parts_marketplace:
+    image: postgres:latest
+    container_name: parts_marketplace_db
+    env_file: .env.parts_marketplace
+    ports:
+      - "5422:5432"
+    volumes:
+      - ./data/parts_marketplace:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  parts_market:
+    image: postgres:latest
+    container_name: parts_market_db
+    env_file: .env.parts_market
+    ports:
+      - "5423:5432"
+    volumes:
+      - ./data/parts_market:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  boat_agregator:
+    image: postgres:latest
+    container_name: boat_agregator_db
+    env_file: .env.boat_agregator
+    ports:
+      - "5424:5432"
+    volumes:
+      - ./data/boat_agregator:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  parts_shop:
+    image: postgres:latest
+    container_name: parts_shop_db
+    env_file: .env.parts_shop
+    ports:
+      - "5425:5432"
+    volumes:
+      - ./data/parts_shop:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 15

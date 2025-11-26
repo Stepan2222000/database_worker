@@ -1,0 +1,1136 @@
+2025-08-21 22:11:55 [INFO] Начало бэкапа (PID: 17370)
+2025-08-21 22:11:55 [INFO] Обработка сервиса: avito_zamer
+2025-08-21 22:11:55 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-11.sql.gz
+ops/backup/backup_pg.sh: line 139: timeout: command not found
+2025-08-21 22:11:55 [ERROR] Ошибка создания бэкапа для avito_zamer
+2025-08-21 22:11:55 [INFO] Обработка сервиса: ebay
+2025-08-21 22:11:55 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-11.sql.gz
+ops/backup/backup_pg.sh: line 139: timeout: command not found
+2025-08-21 22:11:55 [ERROR] Ошибка создания бэкапа для ebay
+2025-08-21 22:11:55 [INFO] Обработка сервиса: newoffer
+2025-08-21 22:11:55 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-11.sql.gz
+ops/backup/backup_pg.sh: line 139: timeout: command not found
+2025-08-21 22:11:55 [ERROR] Ошибка создания бэкапа для newoffer
+2025-08-21 22:11:55 [INFO] Обработка сервиса: parts_admin
+2025-08-21 22:11:55 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-11.sql.gz
+ops/backup/backup_pg.sh: line 139: timeout: command not found
+2025-08-21 22:11:55 [ERROR] Ошибка создания бэкапа для parts_admin
+2025-08-21 22:11:55 [INFO] Обработка сервиса: parts_info
+2025-08-21 22:11:55 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-11.sql.gz
+ops/backup/backup_pg.sh: line 139: timeout: command not found
+2025-08-21 22:11:55 [ERROR] Ошибка создания бэкапа для parts_info
+2025-08-21 22:11:55 [INFO] Обработка сервиса: test_db
+2025-08-21 22:11:55 [SKIP] Бэкапы отключены для test_db
+2025-08-21 22:11:55 [INFO] Завершение бэкапа
+2025-08-21 22:11:55 [STATS] Обработано сервисов: 6
+2025-08-21 22:11:55 [STATS] Успешных бэкапов: 0
+2025-08-21 22:11:55 [STATS] Неудачных бэкапов: 5
+2025-08-21 22:12:36 [INFO] Начало бэкапа (PID: 17894)
+2025-08-21 22:12:36 [INFO] Обработка сервиса: avito_zamer
+2025-08-21 22:12:36 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:36 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-21 22:12:36 [INFO] Обработка сервиса: ebay
+2025-08-21 22:12:36 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:36 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-21 22:12:36 [INFO] Обработка сервиса: newoffer
+2025-08-21 22:12:36 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-21 22:12:37 [INFO] Обработка сервиса: parts_admin
+2025-08-21 22:12:37 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-21 22:12:37 [INFO] Обработка сервиса: parts_info
+2025-08-21 22:12:37 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-12.sql.gz
+2025-08-21 22:12:37 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-21 22:12:37 [INFO] Обработка сервиса: test_db
+2025-08-21 22:12:37 [SKIP] Бэкапы отключены для test_db
+2025-08-21 22:12:37 [INFO] Завершение бэкапа
+2025-08-21 22:12:37 [STATS] Обработано сервисов: 6
+2025-08-21 22:12:37 [STATS] Успешных бэкапов: 5
+2025-08-21 22:12:37 [STATS] Неудачных бэкапов: 0
+2025-08-21 22:21:42 [INFO] Начало бэкапа (PID: 20022)
+2025-08-21 22:21:42 [INFO] Обработка сервиса: avito_zamer
+2025-08-21 22:21:42 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:42 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:42 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-21 22:21:42 [INFO] Обработка сервиса: ebay
+2025-08-21 22:21:42 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-21 22:21:43 [INFO] Обработка сервиса: newoffer
+2025-08-21 22:21:43 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-21 22:21:43 [INFO] Обработка сервиса: parts_admin
+2025-08-21 22:21:43 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-21 22:21:43 [INFO] Обработка сервиса: parts_info
+2025-08-21 22:21:43 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-21.sql.gz
+2025-08-21 22:21:43 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-21 22:21:43 [INFO] Обработка сервиса: test_db
+2025-08-21 22:21:43 [SKIP] Бэкапы отключены для test_db
+2025-08-21 22:21:43 [INFO] Завершение бэкапа
+2025-08-21 22:21:43 [STATS] Обработано сервисов: 6
+2025-08-21 22:21:43 [STATS] Успешных бэкапов: 5
+2025-08-21 22:21:43 [STATS] Неудачных бэкапов: 0
+2025-08-21 22:23:25 [INFO] Начало бэкапа (PID: 20843)
+2025-08-21 22:23:25 [INFO] Обработка сервиса: avito_zamer
+2025-08-21 22:23:25 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:25 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:25 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-21 22:23:25 [INFO] Обработка сервиса: ebay
+2025-08-21 22:23:25 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-21 22:23:26 [INFO] Обработка сервиса: newoffer
+2025-08-21 22:23:26 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-21 22:23:26 [INFO] Обработка сервиса: parts_admin
+2025-08-21 22:23:26 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-21 22:23:26 [INFO] Обработка сервиса: parts_info
+2025-08-21 22:23:26 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-23.sql.gz
+2025-08-21 22:23:26 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-21 22:23:26 [INFO] Обработка сервиса: test_db
+2025-08-21 22:23:26 [SKIP] Бэкапы отключены для test_db
+2025-08-21 22:23:26 [INFO] Завершение бэкапа
+2025-08-21 22:23:26 [STATS] Обработано сервисов: 6
+2025-08-21 22:23:26 [STATS] Успешных бэкапов: 5
+2025-08-21 22:23:26 [STATS] Неудачных бэкапов: 0
+2025-08-21 22:35:01 [INFO] Начало бэкапа (PID: 23548)
+2025-08-21 22:35:01 [INFO] Обработка сервиса: avito_zamer
+2025-08-21 22:35:01 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-21/avito_zamer_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-21 22:35:01 [INFO] Обработка сервиса: ebay
+2025-08-21 22:35:01 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-21/ebay_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-21 22:35:01 [INFO] Обработка сервиса: newoffer
+2025-08-21 22:35:01 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-21/newoffer_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-21 22:35:01 [INFO] Обработка сервиса: parts_admin
+2025-08-21 22:35:01 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-21/parts_admin_db_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-21 22:35:01 [INFO] Обработка сервиса: parts_info
+2025-08-21 22:35:01 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-21/parts_info_db_2025-08-21_22-35.sql.gz
+2025-08-21 22:35:01 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-21 22:35:01 [INFO] Обработка сервиса: test_db
+2025-08-21 22:35:01 [SKIP] Бэкапы отключены для test_db
+2025-08-21 22:35:01 [INFO] Завершение бэкапа
+2025-08-21 22:35:01 [STATS] Обработано сервисов: 6
+2025-08-21 22:35:02 [STATS] Успешных бэкапов: 5
+2025-08-21 22:35:02 [STATS] Неудачных бэкапов: 0
+2025-08-22 00:36:46 [INFO] Начало бэкапа (PID: 41788)
+2025-08-22 00:36:46 [INFO] Завершение бэкапа
+2025-08-22 00:36:46 [STATS] Обработано сервисов: 0
+2025-08-22 00:36:46 [STATS] Успешных бэкапов: 0
+2025-08-22 00:36:46 [STATS] Неудачных бэкапов: 0
+2025-08-22 00:44:15 [INFO] Начало бэкапа (PID: 43619)
+2025-08-22 00:44:15 [INFO] Обработка сервиса: tort_test
+2025-08-22 00:44:15 [INFO] Создание бэкапа: tort_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_00-44.sql.gz
+2025-08-22 00:44:15 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_00-44.sql.gz
+2025-08-22 00:44:15 [INFO] Удаление бэкапов старше 14 дней для tort_test
+2025-08-22 00:44:15 [INFO] Завершение бэкапа
+2025-08-22 00:44:15 [STATS] Обработано сервисов: 1
+2025-08-22 00:44:15 [STATS] Успешных бэкапов: 1
+2025-08-22 00:44:15 [STATS] Неудачных бэкапов: 0
+2025-08-22 00:54:38 [INFO] Начало бэкапа (PID: 45091)
+2025-08-22 00:54:38 [INFO] Обработка сервиса: tort_test
+2025-08-22 00:54:38 [INFO] Создание бэкапа: tort_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_00-54.sql.gz
+2025-08-22 00:54:38 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_00-54.sql.gz
+2025-08-22 00:54:38 [INFO] Удаление бэкапов старше 14 дней для tort_test
+2025-08-22 00:54:38 [INFO] Завершение бэкапа
+2025-08-22 00:54:38 [STATS] Обработано сервисов: 1
+2025-08-22 00:54:38 [STATS] Успешных бэкапов: 1
+2025-08-22 00:54:38 [STATS] Неудачных бэкапов: 0
+2025-08-22 01:05:16 [INFO] Начало бэкапа (PID: 47631)
+2025-08-22 01:05:16 [INFO] Обработка сервиса: tort_test
+2025-08-22 01:05:16 [INFO] Создание бэкапа: tort_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_01-05.sql.gz
+2025-08-22 01:05:16 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/tort_test/2025-08-22/tort_test_2025-08-22_01-05.sql.gz
+2025-08-22 01:05:16 [INFO] Удаление бэкапов старше 14 дней для tort_test
+2025-08-22 01:05:16 [INFO] Завершение бэкапа
+2025-08-22 01:05:16 [STATS] Обработано сервисов: 1
+2025-08-22 01:05:16 [STATS] Успешных бэкапов: 1
+2025-08-22 01:05:16 [STATS] Неудачных бэкапов: 0
+2025-08-22 01:10:38 [INFO] Начало бэкапа (PID: 48989)
+2025-08-22 01:10:38 [INFO] Обработка сервиса: test_service
+2025-08-22 01:10:38 [INFO] Создание бэкапа: test_service -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_service/2025-08-22/test_service_2025-08-22_01-10.sql.gz
+2025-08-22 01:10:38 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_service/2025-08-22/test_service_2025-08-22_01-10.sql.gz
+2025-08-22 01:10:38 [INFO] Удаление бэкапов старше 14 дней для test_service
+2025-08-22 01:10:38 [INFO] Завершение бэкапа
+2025-08-22 01:10:38 [STATS] Обработано сервисов: 1
+2025-08-22 01:10:38 [STATS] Успешных бэкапов: 1
+2025-08-22 01:10:38 [STATS] Неудачных бэкапов: 0
+2025-08-22 01:29:45 [INFO] Начало бэкапа (PID: 53344)
+2025-08-22 01:29:45 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 01:29:45 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 01:29:45 [INFO] Обработка сервиса: ebay
+2025-08-22 01:29:45 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 01:29:45 [INFO] Обработка сервиса: newoffer
+2025-08-22 01:29:45 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 01:29:45 [INFO] Обработка сервиса: parts_admin
+2025-08-22 01:29:45 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 01:29:45 [INFO] Обработка сервиса: parts_info
+2025-08-22 01:29:45 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 01:29:45 [INFO] Обработка сервиса: test_db
+2025-08-22 01:29:45 [SKIP] Бэкапы отключены для test_db
+2025-08-22 01:29:45 [INFO] Обработка сервиса: test_service
+2025-08-22 01:29:45 [INFO] Создание бэкапа: test_service -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_service/2025-08-22/test_service_2025-08-22_01-29.sql.gz
+2025-08-22 01:29:45 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_service/2025-08-22/test_service_2025-08-22_01-29.sql.gz
+2025-08-22 01:29:45 [INFO] Удаление бэкапов старше 14 дней для test_service
+2025-08-22 01:29:45 [INFO] Завершение бэкапа
+2025-08-22 01:29:45 [STATS] Обработано сервисов: 7
+2025-08-22 01:29:45 [STATS] Успешных бэкапов: 1
+2025-08-22 01:29:45 [STATS] Неудачных бэкапов: 5
+2025-08-22 02:27:29 [INFO] Начало бэкапа (PID: 63090)
+2025-08-22 02:27:29 [INFO] Обработка сервиса: ter
+2025-08-22 02:27:29 [INFO] Создание бэкапа: ter -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-27.sql.gz
+2025-08-22 02:27:30 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-27.sql.gz
+2025-08-22 02:27:30 [INFO] Удаление бэкапов старше 14 дней для ter
+2025-08-22 02:27:30 [INFO] Завершение бэкапа
+2025-08-22 02:27:30 [STATS] Обработано сервисов: 1
+2025-08-22 02:27:30 [STATS] Успешных бэкапов: 1
+2025-08-22 02:27:30 [STATS] Неудачных бэкапов: 0
+2025-08-22 02:39:44 [INFO] Начало бэкапа (PID: 65055)
+2025-08-22 02:39:44 [INFO] Обработка сервиса: ter
+2025-08-22 02:39:44 [INFO] Создание бэкапа: ter -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-39.sql.gz
+2025-08-22 02:39:44 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-39.sql.gz
+2025-08-22 02:39:44 [INFO] Удаление бэкапов старше 14 дней для ter
+2025-08-22 02:39:44 [INFO] Завершение бэкапа
+2025-08-22 02:39:44 [STATS] Обработано сервисов: 1
+2025-08-22 02:39:44 [STATS] Успешных бэкапов: 1
+2025-08-22 02:39:44 [STATS] Неудачных бэкапов: 0
+2025-08-22 02:40:26 [INFO] Начало бэкапа (PID: 65308)
+2025-08-22 02:40:26 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 02:40:26 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: ebay
+2025-08-22 02:40:26 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: newoffer
+2025-08-22 02:40:26 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: parts_admin
+2025-08-22 02:40:26 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: parts_info
+2025-08-22 02:40:26 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: resep
+2025-08-22 02:40:26 [ERROR] Контейнер для resep не найден или не запущен
+2025-08-22 02:40:26 [INFO] Обработка сервиса: ter
+2025-08-22 02:40:26 [INFO] Создание бэкапа: ter -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-40.sql.gz
+2025-08-22 02:40:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-40.sql.gz
+2025-08-22 02:40:26 [INFO] Удаление бэкапов старше 14 дней для ter
+2025-08-22 02:40:26 [INFO] Обработка сервиса: test_db
+2025-08-22 02:40:26 [SKIP] Бэкапы отключены для test_db
+2025-08-22 02:40:26 [INFO] Завершение бэкапа
+2025-08-22 02:40:26 [STATS] Обработано сервисов: 8
+2025-08-22 02:40:26 [STATS] Успешных бэкапов: 1
+2025-08-22 02:40:26 [STATS] Неудачных бэкапов: 6
+2025-08-22 02:42:23 [INFO] Начало бэкапа (PID: 66046)
+2025-08-22 02:42:23 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 02:42:23 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-22 02:42:24 [INFO] Обработка сервиса: ebay
+2025-08-22 02:42:24 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-22 02:42:24 [INFO] Обработка сервиса: newoffer
+2025-08-22 02:42:24 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 02:42:24 [INFO] Обработка сервиса: parts_admin
+2025-08-22 02:42:24 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 02:42:24 [INFO] Обработка сервиса: parts_info
+2025-08-22 02:42:24 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 02:42:24 [INFO] Обработка сервиса: resep
+2025-08-22 02:42:24 [ERROR] Контейнер для resep не найден или не запущен
+2025-08-22 02:42:24 [INFO] Обработка сервиса: ter
+2025-08-22 02:42:24 [INFO] Создание бэкапа: ter -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ter/2025-08-22/ter_2025-08-22_02-42.sql.gz
+2025-08-22 02:42:24 [INFO] Удаление бэкапов старше 14 дней для ter
+2025-08-22 02:42:24 [INFO] Обработка сервиса: test_db
+2025-08-22 02:42:24 [SKIP] Бэкапы отключены для test_db
+2025-08-22 02:42:24 [INFO] Завершение бэкапа
+2025-08-22 02:42:24 [STATS] Обработано сервисов: 8
+2025-08-22 02:42:24 [STATS] Успешных бэкапов: 3
+2025-08-22 02:42:24 [STATS] Неудачных бэкапов: 4
+2025-08-22 02:53:48 [INFO] Начало бэкапа (PID: 68390)
+2025-08-22 02:53:48 [INFO] Обработка сервиса: final_test
+2025-08-22 02:53:48 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-53.sql.gz
+2025-08-22 02:53:48 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-53.sql.gz
+2025-08-22 02:53:48 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 02:53:48 [INFO] Завершение бэкапа
+2025-08-22 02:53:48 [STATS] Обработано сервисов: 1
+2025-08-22 02:53:48 [STATS] Успешных бэкапов: 1
+2025-08-22 02:53:48 [STATS] Неудачных бэкапов: 0
+2025-08-22 02:55:49 [INFO] Начало бэкапа (PID: 68748)
+2025-08-22 02:55:49 [INFO] Обработка сервиса: final_test
+2025-08-22 02:55:49 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-55.sql.gz
+2025-08-22 02:55:49 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-55.sql.gz
+2025-08-22 02:55:49 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 02:55:49 [INFO] Завершение бэкапа
+2025-08-22 02:55:49 [STATS] Обработано сервисов: 1
+2025-08-22 02:55:49 [STATS] Успешных бэкапов: 1
+2025-08-22 02:55:49 [STATS] Неудачных бэкапов: 0
+2025-08-22 02:56:16 [INFO] Начало бэкапа (PID: 69048)
+2025-08-22 02:56:16 [INFO] Обработка сервиса: final_test
+2025-08-22 02:56:16 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-56.sql.gz
+2025-08-22 02:56:16 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_02-56.sql.gz
+2025-08-22 02:56:16 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 02:56:16 [INFO] Завершение бэкапа
+2025-08-22 02:56:16 [STATS] Обработано сервисов: 1
+2025-08-22 02:56:16 [STATS] Успешных бэкапов: 1
+2025-08-22 02:56:16 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:00:11 [INFO] Начало бэкапа (PID: 70150)
+2025-08-22 03:00:12 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:00:12 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: ebay
+2025-08-22 03:00:12 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: final_test
+2025-08-22 03:00:12 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:12 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:12 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 03:00:12 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:00:12 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:00:12 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:00:12 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: resep
+2025-08-22 03:00:12 [ERROR] Контейнер для resep не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: ter
+2025-08-22 03:00:12 [ERROR] Контейнер для ter не найден или не запущен
+2025-08-22 03:00:12 [INFO] Обработка сервиса: test_db
+2025-08-22 03:00:12 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:00:12 [INFO] Завершение бэкапа
+2025-08-22 03:00:12 [STATS] Обработано сервисов: 9
+2025-08-22 03:00:12 [STATS] Успешных бэкапов: 1
+2025-08-22 03:00:12 [STATS] Неудачных бэкапов: 7
+2025-08-22 03:00:16 [INFO] Начало бэкапа (PID: 70621)
+2025-08-22 03:00:16 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:00:16 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 03:00:16 [INFO] Обработка сервиса: ebay
+2025-08-22 03:00:16 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 03:00:16 [INFO] Обработка сервиса: final_test
+2025-08-22 03:00:16 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:17 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:17 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 03:00:17 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:00:17 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 03:00:17 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:00:17 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 03:00:17 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:00:17 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 03:00:17 [INFO] Обработка сервиса: resep
+2025-08-22 03:00:17 [ERROR] Контейнер для resep не найден или не запущен
+2025-08-22 03:00:17 [INFO] Обработка сервиса: ter
+2025-08-22 03:00:17 [ERROR] Контейнер для ter не найден или не запущен
+2025-08-22 03:00:17 [INFO] Обработка сервиса: test_db
+2025-08-22 03:00:17 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:00:17 [INFO] Завершение бэкапа
+2025-08-22 03:00:17 [STATS] Обработано сервисов: 9
+2025-08-22 03:00:17 [STATS] Успешных бэкапов: 1
+2025-08-22 03:00:17 [STATS] Неудачных бэкапов: 7
+2025-08-22 03:00:28 [INFO] Начало бэкапа (PID: 71191)
+2025-08-22 03:00:28 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:00:28 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 03:00:28 [INFO] Обработка сервиса: ebay
+2025-08-22 03:00:28 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 03:00:28 [INFO] Обработка сервиса: final_test
+2025-08-22 03:00:28 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:28 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test/2025-08-22/final_test_2025-08-22_03-00.sql.gz
+2025-08-22 03:00:28 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-22 03:00:28 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:00:28 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 03:00:28 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:00:28 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 03:00:28 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:00:28 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 03:00:28 [INFO] Обработка сервиса: resep
+2025-08-22 03:00:28 [ERROR] Контейнер для resep не найден или не запущен
+2025-08-22 03:00:29 [INFO] Обработка сервиса: ter
+2025-08-22 03:00:29 [ERROR] Контейнер для ter не найден или не запущен
+2025-08-22 03:00:29 [INFO] Обработка сервиса: test_db
+2025-08-22 03:00:29 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:00:29 [INFO] Завершение бэкапа
+2025-08-22 03:00:29 [STATS] Обработано сервисов: 9
+2025-08-22 03:00:29 [STATS] Успешных бэкапов: 1
+2025-08-22 03:00:29 [STATS] Неудачных бэкапов: 7
+2025-08-22 03:04:20 [INFO] Начало бэкапа (PID: 72454)
+2025-08-22 03:04:20 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:04:20 [ERROR] Контейнер для avito_zamer не найден или не запущен
+2025-08-22 03:04:20 [INFO] Обработка сервиса: ebay
+2025-08-22 03:04:20 [ERROR] Контейнер для ebay не найден или не запущен
+2025-08-22 03:04:20 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:04:20 [ERROR] Контейнер для newoffer не найден или не запущен
+2025-08-22 03:04:20 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:04:20 [ERROR] Контейнер для parts_admin не найден или не запущен
+2025-08-22 03:04:20 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:04:20 [ERROR] Контейнер для parts_info не найден или не запущен
+2025-08-22 03:04:20 [INFO] Обработка сервиса: test_db
+2025-08-22 03:04:20 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:04:20 [INFO] Завершение бэкапа
+2025-08-22 03:04:20 [STATS] Обработано сервисов: 6
+2025-08-22 03:04:20 [STATS] Успешных бэкапов: 0
+2025-08-22 03:04:20 [STATS] Неудачных бэкапов: 5
+2025-08-22 03:05:13 [INFO] Начало бэкапа (PID: 72934)
+2025-08-22 03:05:13 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:05:13 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-22 03:05:13 [INFO] Обработка сервиса: ebay
+2025-08-22 03:05:13 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-22 03:05:13 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:05:13 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-22/newoffer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-22/newoffer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:13 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-22 03:05:13 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:05:13 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-22/parts_admin_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:14 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-22/parts_admin_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:14 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-22 03:05:14 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:05:14 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-22/parts_info_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:14 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-22/parts_info_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:14 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-22 03:05:14 [INFO] Обработка сервиса: test_db
+2025-08-22 03:05:14 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:05:14 [INFO] Завершение бэкапа
+2025-08-22 03:05:14 [STATS] Обработано сервисов: 6
+2025-08-22 03:05:14 [STATS] Успешных бэкапов: 5
+2025-08-22 03:05:14 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:05:22 [INFO] Начало бэкапа (PID: 73453)
+2025-08-22 03:05:22 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:05:22 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:22 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:22 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-22 03:05:22 [INFO] Завершение бэкапа
+2025-08-22 03:05:22 [STATS] Обработано сервисов: 1
+2025-08-22 03:05:22 [STATS] Успешных бэкапов: 1
+2025-08-22 03:05:22 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:05:26 [INFO] Начало бэкапа (PID: 73609)
+2025-08-22 03:05:26 [INFO] Обработка сервиса: avito_zamer
+2025-08-22 03:05:26 [INFO] Создание бэкапа: avito_zamer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/avito_zamer/2025-08-22/avito_zamer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [INFO] Удаление бэкапов старше 14 дней для avito_zamer
+2025-08-22 03:05:26 [INFO] Обработка сервиса: ebay
+2025-08-22 03:05:26 [INFO] Создание бэкапа: ebay -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/ebay/2025-08-22/ebay_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [INFO] Удаление бэкапов старше 14 дней для ebay
+2025-08-22 03:05:26 [INFO] Обработка сервиса: newoffer
+2025-08-22 03:05:26 [INFO] Создание бэкапа: newoffer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-22/newoffer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/newoffer/2025-08-22/newoffer_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:26 [INFO] Удаление бэкапов старше 14 дней для newoffer
+2025-08-22 03:05:26 [INFO] Обработка сервиса: parts_admin
+2025-08-22 03:05:26 [INFO] Создание бэкапа: parts_admin_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-22/parts_admin_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:27 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_admin/2025-08-22/parts_admin_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:27 [INFO] Удаление бэкапов старше 14 дней для parts_admin
+2025-08-22 03:05:27 [INFO] Обработка сервиса: parts_info
+2025-08-22 03:05:27 [INFO] Создание бэкапа: parts_info_db -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-22/parts_info_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:27 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/parts_info/2025-08-22/parts_info_db_2025-08-22_03-05.sql.gz
+2025-08-22 03:05:27 [INFO] Удаление бэкапов старше 14 дней для parts_info
+2025-08-22 03:05:27 [INFO] Обработка сервиса: test_db
+2025-08-22 03:05:27 [SKIP] Бэкапы отключены для test_db
+2025-08-22 03:05:27 [INFO] Завершение бэкапа
+2025-08-22 03:05:27 [STATS] Обработано сервисов: 6
+2025-08-22 03:05:27 [STATS] Успешных бэкапов: 5
+2025-08-22 03:05:27 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:10:12 [INFO] Начало бэкапа (PID: 75266)
+2025-08-22 03:10:12 [INFO] Обработка сервиса: q
+2025-08-22 03:10:12 [INFO] Создание бэкапа: q -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/q/2025-08-22/q_2025-08-22_03-10.sql.gz
+2025-08-22 03:10:12 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/q/2025-08-22/q_2025-08-22_03-10.sql.gz
+2025-08-22 03:10:12 [INFO] Удаление бэкапов старше 14 дней для q
+2025-08-22 03:10:12 [INFO] Завершение бэкапа
+2025-08-22 03:10:12 [STATS] Обработано сервисов: 1
+2025-08-22 03:10:12 [STATS] Успешных бэкапов: 1
+2025-08-22 03:10:12 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:21:48 [INFO] Начало бэкапа (PID: 78894)
+2025-08-22 03:21:48 [INFO] Обработка сервиса: erv
+2025-08-22 03:21:48 [INFO] Создание бэкапа: erv -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/erv/2025-08-22/erv_2025-08-22_03-21.sql.gz
+2025-08-22 03:21:48 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/erv/2025-08-22/erv_2025-08-22_03-21.sql.gz
+2025-08-22 03:21:48 [INFO] Удаление бэкапов старше 14 дней для erv
+2025-08-22 03:21:48 [INFO] Завершение бэкапа
+2025-08-22 03:21:48 [STATS] Обработано сервисов: 1
+2025-08-22 03:21:48 [STATS] Успешных бэкапов: 1
+2025-08-22 03:21:48 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:24:06 [INFO] Начало бэкапа (PID: 79655)
+2025-08-22 03:24:06 [INFO] Обработка сервиса: rfwer
+2025-08-22 03:24:06 [INFO] Создание бэкапа: rfwer -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/rfwer/2025-08-22/rfwer_2025-08-22_03-24.sql.gz
+2025-08-22 03:24:06 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/rfwer/2025-08-22/rfwer_2025-08-22_03-24.sql.gz
+2025-08-22 03:24:06 [INFO] Удаление бэкапов старше 14 дней для rfwer
+2025-08-22 03:24:06 [INFO] Завершение бэкапа
+2025-08-22 03:24:06 [STATS] Обработано сервисов: 1
+2025-08-22 03:24:06 [STATS] Успешных бэкапов: 1
+2025-08-22 03:24:06 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:35:54 [INFO] Начало бэкапа (PID: 80835)
+2025-08-22 03:35:54 [INFO] Обработка сервиса: test_rename
+2025-08-22 03:35:54 [INFO] Создание бэкапа: test_rename -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_rename/2025-08-22/test_rename_2025-08-22_03-35.sql.gz
+2025-08-22 03:35:54 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_rename/2025-08-22/test_rename_2025-08-22_03-35.sql.gz
+2025-08-22 03:35:54 [INFO] Удаление бэкапов старше 14 дней для test_rename
+2025-08-22 03:35:54 [INFO] Завершение бэкапа
+2025-08-22 03:35:54 [STATS] Обработано сервисов: 1
+2025-08-22 03:35:54 [STATS] Успешных бэкапов: 1
+2025-08-22 03:35:54 [STATS] Неудачных бэкапов: 0
+2025-08-22 03:46:48 [INFO] Начало бэкапа (PID: 83896)
+2025-08-22 03:46:48 [INFO] Обработка сервиса: rest
+2025-08-22 03:46:48 [INFO] Создание бэкапа: rest -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/rest/2025-08-22/rest_2025-08-22_03-46.sql.gz
+2025-08-22 03:46:48 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/rest/2025-08-22/rest_2025-08-22_03-46.sql.gz
+2025-08-22 03:46:48 [INFO] Удаление бэкапов старше 14 дней для rest
+2025-08-22 03:46:48 [INFO] Завершение бэкапа
+2025-08-22 03:46:48 [STATS] Обработано сервисов: 1
+2025-08-22 03:46:48 [STATS] Успешных бэкапов: 1
+2025-08-22 03:46:48 [STATS] Неудачных бэкапов: 0
+2025-08-22 05:59:33 [INFO] Начало бэкапа (PID: 93656)
+2025-08-22 05:59:33 [INFO] Обработка сервиса: test_fix
+2025-08-22 05:59:33 [INFO] Создание бэкапа: test_fi -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/test_fix/2025-08-22/test_fi_2025-08-22_05-59.sql.gz
+pg_dump: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  database "test_fi" does not exist
+2025-08-22 05:59:34 [ERROR] Ошибка создания бэкапа для test_fix
+2025-08-22 05:59:34 [INFO] Завершение бэкапа
+2025-08-22 05:59:34 [STATS] Обработано сервисов: 1
+2025-08-22 05:59:34 [STATS] Успешных бэкапов: 0
+2025-08-22 05:59:34 [STATS] Неудачных бэкапов: 1
+2025-08-22 06:10:36 [INFO] Начало бэкапа (PID: 95516)
+2025-08-22 06:10:36 [INFO] Обработка сервиса: final_test_service
+2025-08-22 06:10:36 [INFO] Создание бэкапа: final_test_service -> /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test_service/2025-08-22/final_test_service_2025-08-22_06-10.sql.gz
+2025-08-22 06:10:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/cursor_files/database_postgres_v2/postgres-docker/db_backups/final_test_service/2025-08-22/final_test_service_2025-08-22_06-10.sql.gz
+2025-08-22 06:10:37 [INFO] Удаление бэкапов старше 14 дней для final_test_service
+2025-08-22 06:10:37 [INFO] Завершение бэкапа
+2025-08-22 06:10:37 [STATS] Обработано сервисов: 1
+2025-08-22 06:10:37 [STATS] Успешных бэкапов: 1
+2025-08-22 06:10:37 [STATS] Неудачных бэкапов: 0
+2025-08-24 01:58:21 [INFO] Начало бэкапа (PID: 39420)
+2025-08-24 01:58:21 [INFO] Обработка сервиса: ultimate_test_database
+2025-08-24 01:58:21 [SKIP] Бэкапы отключены для ultimate_test_database
+2025-08-24 01:58:21 [INFO] Завершение бэкапа
+2025-08-24 01:58:21 [STATS] Обработано сервисов: 1
+2025-08-24 01:58:21 [STATS] Успешных бэкапов: 0
+2025-08-24 01:58:21 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:03:35 [INFO] Начало бэкапа (PID: 41219)
+2025-08-24 02:03:35 [INFO] Обработка сервиса: re
+2025-08-24 02:03:35 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:35 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:35 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:03:35 [INFO] Завершение бэкапа
+2025-08-24 02:03:35 [STATS] Обработано сервисов: 1
+2025-08-24 02:03:35 [STATS] Успешных бэкапов: 1
+2025-08-24 02:03:35 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:03:43 [INFO] Начало бэкапа (PID: 41429)
+2025-08-24 02:03:43 [INFO] Обработка сервиса: re
+2025-08-24 02:03:43 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:43 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:43 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:03:43 [INFO] Завершение бэкапа
+2025-08-24 02:03:43 [STATS] Обработано сервисов: 1
+2025-08-24 02:03:43 [STATS] Успешных бэкапов: 1
+2025-08-24 02:03:43 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:03:44 [INFO] Начало бэкапа (PID: 41625)
+2025-08-24 02:03:44 [INFO] Обработка сервиса: re
+2025-08-24 02:03:44 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:44 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:44 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:03:44 [INFO] Завершение бэкапа
+2025-08-24 02:03:44 [STATS] Обработано сервисов: 1
+2025-08-24 02:03:44 [STATS] Успешных бэкапов: 1
+2025-08-24 02:03:44 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:03:52 [INFO] Начало бэкапа (PID: 41829)
+2025-08-24 02:03:52 [INFO] Обработка сервиса: re
+2025-08-24 02:03:52 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:52 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-03.sql.gz
+2025-08-24 02:03:52 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:03:52 [INFO] Завершение бэкапа
+2025-08-24 02:03:52 [STATS] Обработано сервисов: 1
+2025-08-24 02:03:52 [STATS] Успешных бэкапов: 1
+2025-08-24 02:03:52 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:04:07 [INFO] Начало бэкапа (PID: 42040)
+2025-08-24 02:04:07 [INFO] Обработка сервиса: re
+2025-08-24 02:04:07 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:07 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:07 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:04:07 [INFO] Завершение бэкапа
+2025-08-24 02:04:07 [STATS] Обработано сервисов: 1
+2025-08-24 02:04:07 [STATS] Успешных бэкапов: 1
+2025-08-24 02:04:07 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:04:14 [INFO] Начало бэкапа (PID: 42250)
+2025-08-24 02:04:14 [INFO] Обработка сервиса: re
+2025-08-24 02:04:14 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:14 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:14 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:04:14 [INFO] Завершение бэкапа
+2025-08-24 02:04:14 [STATS] Обработано сервисов: 1
+2025-08-24 02:04:14 [STATS] Успешных бэкапов: 1
+2025-08-24 02:04:14 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:04:56 [INFO] Начало бэкапа (PID: 42544)
+2025-08-24 02:04:56 [INFO] Обработка сервиса: re
+2025-08-24 02:04:56 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:56 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-04.sql.gz
+2025-08-24 02:04:56 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:04:56 [INFO] Завершение бэкапа
+2025-08-24 02:04:56 [STATS] Обработано сервисов: 1
+2025-08-24 02:04:56 [STATS] Успешных бэкапов: 1
+2025-08-24 02:04:56 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:05:07 [INFO] Начало бэкапа (PID: 42760)
+2025-08-24 02:05:07 [INFO] Обработка сервиса: re
+2025-08-24 02:05:07 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:07 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:07 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:05:07 [INFO] Завершение бэкапа
+2025-08-24 02:05:07 [STATS] Обработано сервисов: 1
+2025-08-24 02:05:07 [STATS] Успешных бэкапов: 1
+2025-08-24 02:05:07 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:05:19 [INFO] Начало бэкапа (PID: 42983)
+2025-08-24 02:05:19 [INFO] Обработка сервиса: re
+2025-08-24 02:05:19 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:20 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:20 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:05:20 [INFO] Завершение бэкапа
+2025-08-24 02:05:20 [STATS] Обработано сервисов: 1
+2025-08-24 02:05:20 [STATS] Успешных бэкапов: 1
+2025-08-24 02:05:20 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:05:36 [INFO] Начало бэкапа (PID: 43207)
+2025-08-24 02:05:36 [INFO] Обработка сервиса: re
+2025-08-24 02:05:36 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:36 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:05:36 [INFO] Завершение бэкапа
+2025-08-24 02:05:36 [STATS] Обработано сервисов: 1
+2025-08-24 02:05:36 [STATS] Успешных бэкапов: 1
+2025-08-24 02:05:36 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:05:41 [INFO] Начало бэкапа (PID: 43414)
+2025-08-24 02:05:41 [INFO] Обработка сервиса: re
+2025-08-24 02:05:41 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:41 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:41 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:05:41 [INFO] Завершение бэкапа
+2025-08-24 02:05:41 [STATS] Обработано сервисов: 1
+2025-08-24 02:05:41 [STATS] Успешных бэкапов: 1
+2025-08-24 02:05:41 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:05:46 [INFO] Начало бэкапа (PID: 43620)
+2025-08-24 02:05:46 [INFO] Обработка сервиса: re
+2025-08-24 02:05:46 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:46 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-05.sql.gz
+2025-08-24 02:05:46 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:05:46 [INFO] Завершение бэкапа
+2025-08-24 02:05:46 [STATS] Обработано сервисов: 1
+2025-08-24 02:05:46 [STATS] Успешных бэкапов: 1
+2025-08-24 02:05:46 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:06:43 [INFO] Начало бэкапа (PID: 44180)
+2025-08-24 02:06:43 [INFO] Обработка сервиса: re
+2025-08-24 02:06:43 [ERROR] Контейнер для re не найден или не запущен
+2025-08-24 02:06:43 [INFO] Завершение бэкапа
+2025-08-24 02:06:43 [STATS] Обработано сервисов: 1
+2025-08-24 02:06:43 [STATS] Успешных бэкапов: 0
+2025-08-24 02:06:43 [STATS] Неудачных бэкапов: 1
+2025-08-24 02:07:08 [INFO] Начало бэкапа (PID: 44468)
+2025-08-24 02:07:08 [INFO] Обработка сервиса: re
+2025-08-24 02:07:08 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:08 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:08 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:08 [INFO] Завершение бэкапа
+2025-08-24 02:07:08 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:08 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:08 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:11 [INFO] Начало бэкапа (PID: 44671)
+2025-08-24 02:07:11 [INFO] Обработка сервиса: re
+2025-08-24 02:07:11 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:11 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:11 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:11 [INFO] Завершение бэкапа
+2025-08-24 02:07:11 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:11 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:11 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:14 [INFO] Начало бэкапа (PID: 44874)
+2025-08-24 02:07:14 [INFO] Обработка сервиса: re
+2025-08-24 02:07:14 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:14 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:14 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:14 [INFO] Завершение бэкапа
+2025-08-24 02:07:14 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:14 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:14 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:18 [INFO] Начало бэкапа (PID: 45076)
+2025-08-24 02:07:18 [INFO] Обработка сервиса: re
+2025-08-24 02:07:18 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:18 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:18 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:18 [INFO] Завершение бэкапа
+2025-08-24 02:07:18 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:18 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:18 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:19 [INFO] Начало бэкапа (PID: 45272)
+2025-08-24 02:07:19 [INFO] Обработка сервиса: re
+2025-08-24 02:07:19 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:19 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:19 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:19 [INFO] Завершение бэкапа
+2025-08-24 02:07:19 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:19 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:19 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:20 [INFO] Начало бэкапа (PID: 45468)
+2025-08-24 02:07:20 [INFO] Обработка сервиса: re
+2025-08-24 02:07:20 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:20 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:20 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:20 [INFO] Завершение бэкапа
+2025-08-24 02:07:20 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:20 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:20 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:07:20 [INFO] Начало бэкапа (PID: 45665)
+2025-08-24 02:07:20 [INFO] Обработка сервиса: re
+2025-08-24 02:07:21 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:21 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-07.sql.gz
+2025-08-24 02:07:21 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:07:21 [INFO] Завершение бэкапа
+2025-08-24 02:07:21 [STATS] Обработано сервисов: 1
+2025-08-24 02:07:21 [STATS] Успешных бэкапов: 1
+2025-08-24 02:07:21 [STATS] Неудачных бэкапов: 0
+2025-08-24 02:10:37 [INFO] Начало бэкапа (PID: 46984)
+2025-08-24 02:10:37 [INFO] Обработка сервиса: re
+2025-08-24 02:10:37 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-10.sql.gz
+2025-08-24 02:10:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/re/2025-08-24/re_2025-08-24_02-10.sql.gz
+2025-08-24 02:10:37 [INFO] Удаление бэкапов старше 14 дней для re
+2025-08-24 02:10:37 [INFO] Завершение бэкапа
+2025-08-24 02:10:37 [STATS] Обработано сервисов: 1
+2025-08-24 02:10:37 [STATS] Успешных бэкапов: 1
+2025-08-24 02:10:37 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:07:15 [INFO] Начало бэкапа (PID: 56094)
+2025-08-24 03:07:15 [INFO] Обработка сервиса: ii
+2025-08-24 03:07:15 [INFO] Создание бэкапа: ii -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ii/2025-08-24/ii_2025-08-24_03-07.sql.gz
+2025-08-24 03:07:15 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ii/2025-08-24/ii_2025-08-24_03-07.sql.gz
+2025-08-24 03:07:15 [INFO] Удаление бэкапов старше 14 дней для ii
+2025-08-24 03:07:15 [INFO] Завершение бэкапа
+2025-08-24 03:07:15 [STATS] Обработано сервисов: 1
+2025-08-24 03:07:15 [STATS] Успешных бэкапов: 1
+2025-08-24 03:07:15 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:14:26 [INFO] Начало бэкапа (PID: 57461)
+2025-08-24 03:14:26 [INFO] Обработка сервиса: mega_database
+2025-08-24 03:14:26 [INFO] Создание бэкапа: mega_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/mega_database_2025-08-24_03-14.sql.gz
+2025-08-24 03:14:26 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/mega_database_2025-08-24_03-14.sql.gz
+2025-08-24 03:14:26 [INFO] Удаление бэкапов старше 14 дней для mega_database
+2025-08-24 03:14:26 [INFO] Завершение бэкапа
+2025-08-24 03:14:26 [STATS] Обработано сервисов: 1
+2025-08-24 03:14:26 [STATS] Успешных бэкапов: 1
+2025-08-24 03:14:26 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:17:59 [INFO] Начало бэкапа (PID: 58698)
+2025-08-24 03:17:59 [INFO] Обработка сервиса: mega_database
+2025-08-24 03:17:59 [INFO] Создание бэкапа: tt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/tt_2025-08-24_03-17.sql.gz
+2025-08-24 03:18:00 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/tt_2025-08-24_03-17.sql.gz
+2025-08-24 03:18:00 [INFO] Удаление бэкапов старше 14 дней для mega_database
+2025-08-24 03:18:00 [INFO] Завершение бэкапа
+2025-08-24 03:18:00 [STATS] Обработано сервисов: 1
+2025-08-24 03:18:00 [STATS] Успешных бэкапов: 1
+2025-08-24 03:18:00 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:19:05 [INFO] Начало бэкапа (PID: 59153)
+2025-08-24 03:19:05 [INFO] Обработка сервиса: uu
+2025-08-24 03:19:05 [INFO] Создание бэкапа: uu -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/uu/2025-08-24/uu_2025-08-24_03-19.sql.gz
+2025-08-24 03:19:05 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/uu/2025-08-24/uu_2025-08-24_03-19.sql.gz
+2025-08-24 03:19:05 [INFO] Удаление бэкапов старше 14 дней для uu
+2025-08-24 03:19:06 [INFO] Завершение бэкапа
+2025-08-24 03:19:06 [STATS] Обработано сервисов: 1
+2025-08-24 03:19:06 [STATS] Успешных бэкапов: 1
+2025-08-24 03:19:06 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:25:24 [INFO] Начало бэкапа (PID: 60329)
+2025-08-24 03:25:24 [INFO] Обработка сервиса: uu
+2025-08-24 03:25:24 [INFO] Создание бэкапа: re -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/uu/2025-08-24/re_2025-08-24_03-25.sql.gz
+2025-08-24 03:25:24 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/uu/2025-08-24/re_2025-08-24_03-25.sql.gz
+2025-08-24 03:25:24 [INFO] Удаление бэкапов старше 14 дней для uu
+2025-08-24 03:25:24 [INFO] Завершение бэкапа
+2025-08-24 03:25:24 [STATS] Обработано сервисов: 1
+2025-08-24 03:25:24 [STATS] Успешных бэкапов: 1
+2025-08-24 03:25:24 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:31:11 [INFO] Начало бэкапа (PID: 61067)
+2025-08-24 03:31:11 [INFO] Обработка сервиса: test_database
+2025-08-24 03:31:11 [INFO] Создание бэкапа: test_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_database/2025-08-24/test_database_2025-08-24_03-31.sql.gz
+2025-08-24 03:31:11 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_database/2025-08-24/test_database_2025-08-24_03-31.sql.gz
+2025-08-24 03:31:11 [INFO] Удаление бэкапов старше 14 дней для test_database
+2025-08-24 03:31:11 [INFO] Завершение бэкапа
+2025-08-24 03:31:11 [STATS] Обработано сервисов: 1
+2025-08-24 03:31:11 [STATS] Успешных бэкапов: 1
+2025-08-24 03:31:11 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:31:51 [INFO] Начало бэкапа (PID: 61670)
+2025-08-24 03:31:51 [INFO] Обработка сервиса: extreme_test
+2025-08-24 03:31:51 [INFO] Создание бэкапа: extreme_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/extreme_test/2025-08-24/extreme_test_2025-08-24_03-31.sql.gz
+2025-08-24 03:31:51 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/extreme_test/2025-08-24/extreme_test_2025-08-24_03-31.sql.gz
+2025-08-24 03:31:51 [INFO] Удаление бэкапов старше 14 дней для extreme_test
+2025-08-24 03:31:51 [INFO] Завершение бэкапа
+2025-08-24 03:31:51 [STATS] Обработано сервисов: 1
+2025-08-24 03:31:51 [STATS] Успешных бэкапов: 1
+2025-08-24 03:31:51 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:33:06 [INFO] Начало бэкапа (PID: 62485)
+2025-08-24 03:33:06 [INFO] Обработка сервиса: ultimate_database
+2025-08-24 03:33:06 [INFO] Создание бэкапа: ultimate_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ultimate_database/2025-08-24/ultimate_database_2025-08-24_03-33.sql.gz
+2025-08-24 03:33:06 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ultimate_database/2025-08-24/ultimate_database_2025-08-24_03-33.sql.gz
+2025-08-24 03:33:06 [INFO] Удаление бэкапов старше 14 дней для ultimate_database
+2025-08-24 03:33:06 [INFO] Завершение бэкапа
+2025-08-24 03:33:06 [STATS] Обработано сервисов: 1
+2025-08-24 03:33:06 [STATS] Успешных бэкапов: 1
+2025-08-24 03:33:06 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:35:57 [INFO] Начало бэкапа (PID: 63317)
+2025-08-24 03:35:57 [INFO] Обработка сервиса: final_db
+2025-08-24 03:35:57 [INFO] Создание бэкапа: final_db -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/final_db/2025-08-24/final_db_2025-08-24_03-35.sql.gz
+2025-08-24 03:35:57 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/final_db/2025-08-24/final_db_2025-08-24_03-35.sql.gz
+2025-08-24 03:35:57 [INFO] Удаление бэкапов старше 14 дней для final_db
+2025-08-24 03:35:57 [INFO] Завершение бэкапа
+2025-08-24 03:35:57 [STATS] Обработано сервисов: 1
+2025-08-24 03:35:57 [STATS] Успешных бэкапов: 1
+2025-08-24 03:35:57 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:37:04 [INFO] Начало бэкапа (PID: 63675)
+2025-08-24 03:37:04 [INFO] Обработка сервиса: yy
+2025-08-24 03:37:04 [INFO] Создание бэкапа: yy -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/yy/2025-08-24/yy_2025-08-24_03-37.sql.gz
+2025-08-24 03:37:04 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/yy/2025-08-24/yy_2025-08-24_03-37.sql.gz
+2025-08-24 03:37:04 [INFO] Удаление бэкапов старше 14 дней для yy
+2025-08-24 03:37:04 [INFO] Завершение бэкапа
+2025-08-24 03:37:04 [STATS] Обработано сервисов: 1
+2025-08-24 03:37:04 [STATS] Успешных бэкапов: 1
+2025-08-24 03:37:04 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:38:35 [INFO] Начало бэкапа (PID: 64169)
+2025-08-24 03:38:36 [INFO] Обработка сервиса: ultimate_database
+2025-08-24 03:38:36 [INFO] Создание бэкапа: ultimate_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ultimate_database/2025-08-24/ultimate_database_2025-08-24_03-38.sql.gz
+2025-08-24 03:38:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ultimate_database/2025-08-24/ultimate_database_2025-08-24_03-38.sql.gz
+2025-08-24 03:38:36 [INFO] Удаление бэкапов старше 14 дней для ultimate_database
+2025-08-24 03:38:36 [INFO] Завершение бэкапа
+2025-08-24 03:38:36 [STATS] Обработано сервисов: 1
+2025-08-24 03:38:36 [STATS] Успешных бэкапов: 1
+2025-08-24 03:38:36 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:39:36 [INFO] Начало бэкапа (PID: 64524)
+2025-08-24 03:39:36 [INFO] Обработка сервиса: brtbt
+2025-08-24 03:39:36 [INFO] Создание бэкапа: brtbt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/brtbt/2025-08-24/brtbt_2025-08-24_03-39.sql.gz
+2025-08-24 03:39:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/brtbt/2025-08-24/brtbt_2025-08-24_03-39.sql.gz
+2025-08-24 03:39:36 [INFO] Удаление бэкапов старше 14 дней для brtbt
+2025-08-24 03:39:36 [INFO] Завершение бэкапа
+2025-08-24 03:39:36 [STATS] Обработано сервисов: 1
+2025-08-24 03:39:36 [STATS] Успешных бэкапов: 1
+2025-08-24 03:39:36 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:45:44 [INFO] Начало бэкапа (PID: 65783)
+2025-08-24 03:45:44 [INFO] Обработка сервиса: tgrt
+2025-08-24 03:45:44 [INFO] Создание бэкапа: tgrt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/tgrt/2025-08-24/tgrt_2025-08-24_03-45.sql.gz
+2025-08-24 03:45:44 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/tgrt/2025-08-24/tgrt_2025-08-24_03-45.sql.gz
+2025-08-24 03:45:44 [INFO] Удаление бэкапов старше 14 дней для tgrt
+2025-08-24 03:45:44 [INFO] Завершение бэкапа
+2025-08-24 03:45:44 [STATS] Обработано сервисов: 1
+2025-08-24 03:45:44 [STATS] Успешных бэкапов: 1
+2025-08-24 03:45:44 [STATS] Неудачных бэкапов: 0
+2025-08-24 03:47:20 [INFO] Начало бэкапа (PID: 66558)
+2025-08-24 03:47:20 [INFO] Обработка сервиса: vervwr
+2025-08-24 03:47:20 [INFO] Создание бэкапа: vervwr -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vervwr/2025-08-24/vervwr_2025-08-24_03-47.sql.gz
+2025-08-24 03:47:20 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vervwr/2025-08-24/vervwr_2025-08-24_03-47.sql.gz
+2025-08-24 03:47:20 [INFO] Удаление бэкапов старше 14 дней для vervwr
+2025-08-24 03:47:20 [INFO] Завершение бэкапа
+2025-08-24 03:47:20 [STATS] Обработано сервисов: 1
+2025-08-24 03:47:20 [STATS] Успешных бэкапов: 1
+2025-08-24 03:47:20 [STATS] Неудачных бэкапов: 0
+2025-08-24 04:29:53 [INFO] Начало бэкапа (PID: 73063)
+2025-08-24 04:29:53 [INFO] Обработка сервиса: unified_db
+2025-08-24 04:29:53 [INFO] Создание бэкапа: unified_db -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/unified_db/2025-08-24/unified_db_2025-08-24_04-29.sql.gz
+2025-08-24 04:29:54 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/unified_db/2025-08-24/unified_db_2025-08-24_04-29.sql.gz
+2025-08-24 04:29:54 [INFO] Удаление бэкапов старше 14 дней для unified_db
+2025-08-24 04:29:54 [INFO] Завершение бэкапа
+2025-08-24 04:29:54 [STATS] Обработано сервисов: 1
+2025-08-24 04:29:54 [STATS] Успешных бэкапов: 1
+2025-08-24 04:29:54 [STATS] Неудачных бэкапов: 0
+2025-08-24 04:37:54 [INFO] Начало бэкапа (PID: 75762)
+2025-08-24 04:37:54 [INFO] Обработка сервиса: top
+2025-08-24 04:37:54 [INFO] Создание бэкапа: top -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/top/2025-08-24/top_2025-08-24_04-37.sql.gz
+2025-08-24 04:37:54 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/top/2025-08-24/top_2025-08-24_04-37.sql.gz
+2025-08-24 04:37:54 [INFO] Удаление бэкапов старше 14 дней для top
+2025-08-24 04:37:54 [INFO] Завершение бэкапа
+2025-08-24 04:37:54 [STATS] Обработано сервисов: 1
+2025-08-24 04:37:54 [STATS] Успешных бэкапов: 1
+2025-08-24 04:37:54 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:11:34 [INFO] Начало бэкапа (PID: 79600)
+2025-08-24 05:11:34 [INFO] Обработка сервиса: test_fix_db
+2025-08-24 05:11:34 [INFO] Создание бэкапа: test_fix_db -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_fix_db/2025-08-24/test_fix_db_2025-08-24_05-11.sql.gz
+2025-08-24 05:11:34 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_fix_db/2025-08-24/test_fix_db_2025-08-24_05-11.sql.gz
+2025-08-24 05:11:34 [INFO] Удаление бэкапов старше 14 дней для test_fix_db
+2025-08-24 05:11:34 [INFO] Завершение бэкапа
+2025-08-24 05:11:34 [STATS] Обработано сервисов: 1
+2025-08-24 05:11:34 [STATS] Успешных бэкапов: 1
+2025-08-24 05:11:34 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:14:35 [INFO] Начало бэкапа (PID: 80561)
+2025-08-24 05:14:35 [INFO] Обработка сервиса: mega_database
+2025-08-24 05:14:35 [INFO] Создание бэкапа: mega_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/mega_database_2025-08-24_05-14.sql.gz
+2025-08-24 05:14:35 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/mega_database/2025-08-24/mega_database_2025-08-24_05-14.sql.gz
+2025-08-24 05:14:35 [INFO] Удаление бэкапов старше 14 дней для mega_database
+2025-08-24 05:14:35 [INFO] Завершение бэкапа
+2025-08-24 05:14:35 [STATS] Обработано сервисов: 1
+2025-08-24 05:14:35 [STATS] Успешных бэкапов: 1
+2025-08-24 05:14:35 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:19:36 [INFO] Начало бэкапа (PID: 81557)
+2025-08-24 05:19:36 [INFO] Обработка сервиса: ii
+2025-08-24 05:19:36 [INFO] Создание бэкапа: ii -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ii/2025-08-24/ii_2025-08-24_05-19.sql.gz
+2025-08-24 05:19:36 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ii/2025-08-24/ii_2025-08-24_05-19.sql.gz
+2025-08-24 05:19:36 [INFO] Удаление бэкапов старше 14 дней для ii
+2025-08-24 05:19:36 [INFO] Завершение бэкапа
+2025-08-24 05:19:36 [STATS] Обработано сервисов: 1
+2025-08-24 05:19:36 [STATS] Успешных бэкапов: 1
+2025-08-24 05:19:36 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:24:50 [INFO] Начало бэкапа (PID: 83621)
+2025-08-24 05:24:50 [INFO] Обработка сервиса: alpha_test
+2025-08-24 05:24:50 [INFO] Создание бэкапа: alpha_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/alpha_test/2025-08-24/alpha_test_2025-08-24_05-24.sql.gz
+2025-08-24 05:24:50 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/alpha_test/2025-08-24/alpha_test_2025-08-24_05-24.sql.gz
+2025-08-24 05:24:50 [INFO] Удаление бэкапов старше 14 дней для alpha_test
+2025-08-24 05:24:50 [INFO] Завершение бэкапа
+2025-08-24 05:24:50 [STATS] Обработано сервисов: 1
+2025-08-24 05:24:50 [STATS] Успешных бэкапов: 1
+2025-08-24 05:24:50 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:25:25 [INFO] Начало бэкапа (PID: 84025)
+2025-08-24 05:25:25 [INFO] Обработка сервиса: beta_database
+2025-08-24 05:25:25 [INFO] Создание бэкапа: beta_database -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/beta_database/2025-08-24/beta_database_2025-08-24_05-25.sql.gz
+2025-08-24 05:25:25 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/beta_database/2025-08-24/beta_database_2025-08-24_05-25.sql.gz
+2025-08-24 05:25:25 [INFO] Удаление бэкапов старше 14 дней для beta_database
+2025-08-24 05:25:25 [INFO] Завершение бэкапа
+2025-08-24 05:25:25 [STATS] Обработано сервисов: 1
+2025-08-24 05:25:25 [STATS] Успешных бэкапов: 1
+2025-08-24 05:25:25 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:31:41 [INFO] Начало бэкапа (PID: 87137)
+2025-08-24 05:31:41 [INFO] Обработка сервиса: top
+2025-08-24 05:31:41 [INFO] Создание бэкапа: top -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/top/2025-08-24/top_2025-08-24_05-31.sql.gz
+2025-08-24 05:31:41 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/top/2025-08-24/top_2025-08-24_05-31.sql.gz
+2025-08-24 05:31:41 [INFO] Удаление бэкапов старше 14 дней для top
+2025-08-24 05:31:41 [INFO] Завершение бэкапа
+2025-08-24 05:31:41 [STATS] Обработано сервисов: 1
+2025-08-24 05:31:41 [STATS] Успешных бэкапов: 1
+2025-08-24 05:31:41 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:35:04 [INFO] Начало бэкапа (PID: 87601)
+2025-08-24 05:35:04 [INFO] Обработка сервиса: unified_db
+2025-08-24 05:35:04 [INFO] Создание бэкапа: unified_db -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/unified_db/2025-08-24/unified_db_2025-08-24_05-35.sql.gz
+2025-08-24 05:35:04 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/unified_db/2025-08-24/unified_db_2025-08-24_05-35.sql.gz
+2025-08-24 05:35:04 [INFO] Удаление бэкапов старше 14 дней для unified_db
+2025-08-24 05:35:04 [INFO] Завершение бэкапа
+2025-08-24 05:35:04 [STATS] Обработано сервисов: 1
+2025-08-24 05:35:04 [STATS] Успешных бэкапов: 1
+2025-08-24 05:35:04 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:41:52 [INFO] Начало бэкапа (PID: 90258)
+2025-08-24 05:41:52 [INFO] Обработка сервиса: test
+2025-08-24 05:41:52 [INFO] Создание бэкапа: test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test/2025-08-24/test_2025-08-24_05-41.sql.gz
+2025-08-24 05:41:52 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test/2025-08-24/test_2025-08-24_05-41.sql.gz
+2025-08-24 05:41:52 [INFO] Удаление бэкапов старше 14 дней для test
+2025-08-24 05:41:52 [INFO] Завершение бэкапа
+2025-08-24 05:41:52 [STATS] Обработано сервисов: 1
+2025-08-24 05:41:52 [STATS] Успешных бэкапов: 1
+2025-08-24 05:41:52 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:42:39 [INFO] Начало бэкапа (PID: 90511)
+2025-08-24 05:42:39 [INFO] Обработка сервиса: test
+2025-08-24 05:42:39 [INFO] Создание бэкапа: test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test/2025-08-24/test_2025-08-24_05-42.sql.gz
+2025-08-24 05:42:39 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test/2025-08-24/test_2025-08-24_05-42.sql.gz
+2025-08-24 05:42:39 [INFO] Удаление бэкапов старше 14 дней для test
+2025-08-24 05:42:39 [INFO] Завершение бэкапа
+2025-08-24 05:42:39 [STATS] Обработано сервисов: 1
+2025-08-24 05:42:39 [STATS] Успешных бэкапов: 1
+2025-08-24 05:42:39 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:56:59 [INFO] Начало бэкапа (PID: 93570)
+2025-08-24 05:56:59 [INFO] Обработка сервиса: test_final
+2025-08-24 05:56:59 [INFO] Создание бэкапа: test_final -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_final/2025-08-24/test_final_2025-08-24_05-56.sql.gz
+2025-08-24 05:56:59 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_final/2025-08-24/test_final_2025-08-24_05-56.sql.gz
+2025-08-24 05:56:59 [INFO] Удаление бэкапов старше 14 дней для test_final
+2025-08-24 05:56:59 [INFO] Завершение бэкапа
+2025-08-24 05:56:59 [STATS] Обработано сервисов: 1
+2025-08-24 05:56:59 [STATS] Успешных бэкапов: 1
+2025-08-24 05:56:59 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:58:28 [INFO] Начало бэкапа (PID: 94049)
+2025-08-24 05:58:28 [INFO] Обработка сервиса: test_renamed
+2025-08-24 05:58:28 [INFO] Создание бэкапа: test_renamed -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_renamed/2025-08-24/test_renamed_2025-08-24_05-58.sql.gz
+2025-08-24 05:58:28 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_renamed/2025-08-24/test_renamed_2025-08-24_05-58.sql.gz
+2025-08-24 05:58:28 [INFO] Удаление бэкапов старше 14 дней для test_renamed
+2025-08-24 05:58:28 [INFO] Завершение бэкапа
+2025-08-24 05:58:28 [STATS] Обработано сервисов: 1
+2025-08-24 05:58:28 [STATS] Успешных бэкапов: 1
+2025-08-24 05:58:28 [STATS] Неудачных бэкапов: 0
+2025-08-24 05:59:56 [INFO] Начало бэкапа (PID: 94573)
+2025-08-24 05:59:56 [INFO] Обработка сервиса: test_final_back
+2025-08-24 05:59:56 [INFO] Создание бэкапа: test_final_back -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_final_back/2025-08-24/test_final_back_2025-08-24_05-59.sql.gz
+2025-08-24 05:59:56 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_final_back/2025-08-24/test_final_back_2025-08-24_05-59.sql.gz
+2025-08-24 05:59:56 [INFO] Удаление бэкапов старше 14 дней для test_final_back
+2025-08-24 05:59:56 [INFO] Завершение бэкапа
+2025-08-24 05:59:56 [STATS] Обработано сервисов: 1
+2025-08-24 05:59:56 [STATS] Успешных бэкапов: 1
+2025-08-24 05:59:56 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:18:32 [INFO] Начало бэкапа (PID: 98423)
+2025-08-24 06:18:32 [INFO] Обработка сервиса: trvvertv_test
+2025-08-24 06:18:32 [INFO] Создание бэкапа: trvvertv_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/trvvertv_test/2025-08-24/trvvertv_test_2025-08-24_06-18.sql.gz
+2025-08-24 06:18:32 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/trvvertv_test/2025-08-24/trvvertv_test_2025-08-24_06-18.sql.gz
+2025-08-24 06:18:32 [INFO] Удаление бэкапов старше 14 дней для trvvertv_test
+2025-08-24 06:18:32 [INFO] Завершение бэкапа
+2025-08-24 06:18:32 [STATS] Обработано сервисов: 1
+2025-08-24 06:18:32 [STATS] Успешных бэкапов: 1
+2025-08-24 06:18:32 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:21:40 [INFO] Начало бэкапа (PID: 99535)
+2025-08-24 06:21:40 [INFO] Обработка сервиса: final_test
+2025-08-24 06:21:40 [INFO] Создание бэкапа: final_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/final_test/2025-08-24/final_test_2025-08-24_06-21.sql.gz
+2025-08-24 06:21:40 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/final_test/2025-08-24/final_test_2025-08-24_06-21.sql.gz
+2025-08-24 06:21:40 [INFO] Удаление бэкапов старше 14 дней для final_test
+2025-08-24 06:21:40 [INFO] Завершение бэкапа
+2025-08-24 06:21:40 [STATS] Обработано сервисов: 1
+2025-08-24 06:21:40 [STATS] Успешных бэкапов: 1
+2025-08-24 06:21:40 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:29:31 [INFO] Начало бэкапа (PID: 2375)
+2025-08-24 06:29:31 [INFO] Обработка сервиса: vrte
+2025-08-24 06:29:31 [INFO] Создание бэкапа: vrte -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrte/2025-08-24/vrte_2025-08-24_06-29.sql.gz
+pg_dump: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vergtv" does not exist
+2025-08-24 06:29:31 [ERROR] Ошибка создания бэкапа для vrte
+2025-08-24 06:29:31 [INFO] Завершение бэкапа
+2025-08-24 06:29:31 [STATS] Обработано сервисов: 1
+2025-08-24 06:29:31 [STATS] Успешных бэкапов: 0
+2025-08-24 06:29:31 [STATS] Неудачных бэкапов: 1
+2025-08-24 06:38:51 [INFO] Начало бэкапа (PID: 4487)
+2025-08-24 06:38:51 [INFO] Обработка сервиса: vrte
+2025-08-24 06:38:51 [INFO] Создание бэкапа: vrte -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrte/2025-08-24/vrte_2025-08-24_06-38.sql.gz
+pg_dump: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vergtv" does not exist
+2025-08-24 06:38:51 [ERROR] Ошибка создания бэкапа для vrte
+2025-08-24 06:38:51 [INFO] Завершение бэкапа
+2025-08-24 06:38:51 [STATS] Обработано сервисов: 1
+2025-08-24 06:38:51 [STATS] Успешных бэкапов: 0
+2025-08-24 06:38:51 [STATS] Неудачных бэкапов: 1
+2025-08-24 06:42:25 [INFO] Начало бэкапа (PID: 5380)
+2025-08-24 06:42:25 [INFO] Обработка сервиса: vrte
+2025-08-24 06:42:25 [INFO] Создание бэкапа: vrte -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrte/2025-08-24/vrte_2025-08-24_06-42.sql.gz
+pg_dump: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vergtv" does not exist
+2025-08-24 06:42:26 [ERROR] Ошибка создания бэкапа для vrte
+2025-08-24 06:42:26 [INFO] Завершение бэкапа
+2025-08-24 06:42:26 [STATS] Обработано сервисов: 1
+2025-08-24 06:42:26 [STATS] Успешных бэкапов: 0
+2025-08-24 06:42:26 [STATS] Неудачных бэкапов: 1
+2025-08-24 06:46:33 [INFO] Начало бэкапа (PID: 6464)
+2025-08-24 06:46:33 [INFO] Обработка сервиса: clean_test
+2025-08-24 06:46:33 [INFO] Создание бэкапа: clean_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/clean_test/2025-08-24/clean_test_2025-08-24_06-46.sql.gz
+2025-08-24 06:46:33 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/clean_test/2025-08-24/clean_test_2025-08-24_06-46.sql.gz
+2025-08-24 06:46:33 [INFO] Удаление бэкапов старше 14 дней для clean_test
+2025-08-24 06:46:33 [INFO] Завершение бэкапа
+2025-08-24 06:46:33 [STATS] Обработано сервисов: 1
+2025-08-24 06:46:33 [STATS] Успешных бэкапов: 1
+2025-08-24 06:46:33 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:48:19 [INFO] Начало бэкапа (PID: 7242)
+2025-08-24 06:48:19 [INFO] Обработка сервиса: test_service_2
+2025-08-24 06:48:19 [INFO] Создание бэкапа: test_service_ -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/test_service_2/2025-08-24/test_service__2025-08-24_06-48.sql.gz
+pg_dump: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  database "test_service_" does not exist
+2025-08-24 06:48:19 [ERROR] Ошибка создания бэкапа для test_service_2
+2025-08-24 06:48:19 [INFO] Завершение бэкапа
+2025-08-24 06:48:19 [STATS] Обработано сервисов: 1
+2025-08-24 06:48:19 [STATS] Успешных бэкапов: 0
+2025-08-24 06:48:19 [STATS] Неудачных бэкапов: 1
+2025-08-24 06:48:59 [INFO] Начало бэкапа (PID: 7715)
+2025-08-24 06:48:59 [INFO] Обработка сервиса: lightning_test
+2025-08-24 06:48:59 [INFO] Создание бэкапа: lightning_test -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/lightning_test/2025-08-24/lightning_test_2025-08-24_06-48.sql.gz
+2025-08-24 06:48:59 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/lightning_test/2025-08-24/lightning_test_2025-08-24_06-48.sql.gz
+2025-08-24 06:48:59 [INFO] Удаление бэкапов старше 14 дней для lightning_test
+2025-08-24 06:49:00 [INFO] Завершение бэкапа
+2025-08-24 06:49:00 [STATS] Обработано сервисов: 1
+2025-08-24 06:49:00 [STATS] Успешных бэкапов: 1
+2025-08-24 06:49:00 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:55:18 [INFO] Начало бэкапа (PID: 10594)
+2025-08-24 06:55:18 [INFO] Обработка сервиса: vrve
+2025-08-24 06:55:18 [INFO] Создание бэкапа: vrve -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrve/2025-08-24/vrve_2025-08-24_06-55.sql.gz
+2025-08-24 06:55:18 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrve/2025-08-24/vrve_2025-08-24_06-55.sql.gz
+2025-08-24 06:55:18 [INFO] Удаление бэкапов старше 14 дней для vrve
+2025-08-24 06:55:18 [INFO] Завершение бэкапа
+2025-08-24 06:55:18 [STATS] Обработано сервисов: 1
+2025-08-24 06:55:18 [STATS] Успешных бэкапов: 1
+2025-08-24 06:55:18 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:57:27 [INFO] Начало бэкапа (PID: 11034)
+2025-08-24 06:57:27 [INFO] Обработка сервиса: vrtev
+2025-08-24 06:57:28 [INFO] Создание бэкапа: vrtev -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrtev/2025-08-24/vrtev_2025-08-24_06-57.sql.gz
+2025-08-24 06:57:28 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/vrtev/2025-08-24/vrtev_2025-08-24_06-57.sql.gz
+2025-08-24 06:57:28 [INFO] Удаление бэкапов старше 14 дней для vrtev
+2025-08-24 06:57:28 [INFO] Завершение бэкапа
+2025-08-24 06:57:28 [STATS] Обработано сервисов: 1
+2025-08-24 06:57:28 [STATS] Успешных бэкапов: 1
+2025-08-24 06:57:28 [STATS] Неудачных бэкапов: 0
+2025-08-24 06:58:42 [INFO] Начало бэкапа (PID: 11405)
+2025-08-24 06:58:42 [INFO] Обработка сервиса: ertgvrt
+2025-08-24 06:58:42 [INFO] Создание бэкапа: ertgvrt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_06-58.sql.gz
+2025-08-24 06:58:42 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_06-58.sql.gz
+2025-08-24 06:58:42 [INFO] Удаление бэкапов старше 14 дней для ertgvrt
+2025-08-24 06:58:42 [INFO] Завершение бэкапа
+2025-08-24 06:58:42 [STATS] Обработано сервисов: 1
+2025-08-24 06:58:42 [STATS] Успешных бэкапов: 1
+2025-08-24 06:58:42 [STATS] Неудачных бэкапов: 0
+2025-08-24 07:16:31 [INFO] Начало бэкапа (PID: 15783)
+2025-08-24 07:16:31 [INFO] Завершение бэкапа
+2025-08-24 07:16:31 [STATS] Обработано сервисов: 0
+2025-08-24 07:16:31 [STATS] Успешных бэкапов: 0
+2025-08-24 07:16:31 [STATS] Неудачных бэкапов: 0
+2025-08-24 07:16:53 [INFO] Начало бэкапа (PID: 15950)
+2025-08-24 07:16:53 [INFO] Завершение бэкапа
+2025-08-24 07:16:53 [STATS] Обработано сервисов: 0
+2025-08-24 07:16:53 [STATS] Успешных бэкапов: 0
+2025-08-24 07:16:53 [STATS] Неудачных бэкапов: 0
+2025-08-24 07:17:20 [INFO] Начало бэкапа (PID: 16164)
+🔍 Поиск контейнеров-призраков...
+📋 Законные контейнеры: final_container lightning_container resep_new_db terv test_container test_final_db updated_container vrefgv vrevv
+🐳 PostgreSQL контейнеры: final_test_orphan vrevv
+👻 Найдены призраки: final_test_orphan
+🗑️  Удаление призраков...
+  🛑 Остановка final_test_orphan
+final_test_orphan
+  ❌ Удаление final_test_orphan
+final_test_orphan
+✅ Все призраки удалены!
+2025-08-24 07:17:21 [INFO] Обработка сервиса: ertgvrt
+2025-08-24 07:17:21 [INFO] Создание бэкапа: ertgvrt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_07-17.sql.gz
+2025-08-24 07:17:21 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_07-17.sql.gz
+2025-08-24 07:17:21 [INFO] Удаление бэкапов старше 14 дней для ertgvrt
+2025-08-24 07:17:21 [INFO] Завершение бэкапа
+2025-08-24 07:17:21 [STATS] Обработано сервисов: 1
+2025-08-24 07:17:21 [STATS] Успешных бэкапов: 1
+2025-08-24 07:17:21 [STATS] Неудачных бэкапов: 0
+2025-08-24 07:20:37 [INFO] Начало бэкапа (PID: 17743)
+🔍 Поиск контейнеров-призраков...
+📋 Законные контейнеры: final_container lightning_container resep_new_db terv test_container test_final_db updated_container vrefgv vrevv
+🐳 PostgreSQL контейнеры: vrevv
+✅ Контейнеров-призраков не найдено
+2025-08-24 07:20:37 [INFO] Обработка сервиса: ertgvrt
+2025-08-24 07:20:37 [INFO] Создание бэкапа: ertgvrt -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_07-20.sql.gz
+2025-08-24 07:20:37 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/ertgvrt/2025-08-24/ertgvrt_2025-08-24_07-20.sql.gz
+2025-08-24 07:20:37 [INFO] Удаление бэкапов старше 14 дней для ertgvrt
+2025-08-24 07:20:37 [INFO] Завершение бэкапа
+2025-08-24 07:20:37 [STATS] Обработано сервисов: 1
+2025-08-24 07:20:37 [STATS] Успешных бэкапов: 1
+2025-08-24 07:20:37 [STATS] Неудачных бэкапов: 0
+2025-08-24 14:21:44 [INFO] Начало бэкапа (PID: 29874)
+🔍 Поиск контейнеров-призраков...
+📋 Законные контейнеры: final_container lightning_container resep_new_db terv test_container test_final_db toster_db updated_container vrefgv
+🐳 PostgreSQL контейнеры: toster_db
+✅ Контейнеров-призраков не найдено
+2025-08-24 14:21:44 [INFO] Обработка сервиса: toster
+2025-08-24 14:21:44 [INFO] Создание бэкапа: toster -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/toster/2025-08-24/toster_2025-08-24_14-21.sql.gz
+2025-08-24 14:21:44 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/toster/2025-08-24/toster_2025-08-24_14-21.sql.gz
+2025-08-24 14:21:44 [INFO] Удаление бэкапов старше 14 дней для toster
+2025-08-24 14:21:44 [INFO] Завершение бэкапа
+2025-08-24 14:21:44 [STATS] Обработано сервисов: 1
+2025-08-24 14:21:44 [STATS] Успешных бэкапов: 1
+2025-08-24 14:21:44 [STATS] Неудачных бэкапов: 0
+2025-08-24 14:22:12 [INFO] Начало бэкапа (PID: 30183)
+🔍 Поиск контейнеров-призраков...
+📋 Законные контейнеры: final_container lightning_container resep_new_db terv test_container test_final_db toster_db updated_container vrefgv
+🐳 PostgreSQL контейнеры: toster_db
+✅ Контейнеров-призраков не найдено
+2025-08-24 14:22:12 [INFO] Обработка сервиса: toster
+2025-08-24 14:22:12 [INFO] Создание бэкапа: toster -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/toster/2025-08-24/toster_2025-08-24_14-22.sql.gz
+2025-08-24 14:22:12 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/toster/2025-08-24/toster_2025-08-24_14-22.sql.gz
+2025-08-24 14:22:12 [INFO] Удаление бэкапов старше 14 дней для toster
+2025-08-24 14:22:12 [INFO] Завершение бэкапа
+2025-08-24 14:22:12 [STATS] Обработано сервисов: 1
+2025-08-24 14:22:12 [STATS] Успешных бэкапов: 1
+2025-08-24 14:22:12 [STATS] Неудачных бэкапов: 0
+2025-08-24 14:25:28 [INFO] Начало бэкапа (PID: 30820)
+🔍 Поиск контейнеров-призраков...
+📋 Законные контейнеры: final_container gay lightning_container resep_new_db terv test_container test_final_db updated_container vrefgv
+🐳 PostgreSQL контейнеры: gay
+✅ Контейнеров-призраков не найдено
+2025-08-24 14:25:28 [INFO] Обработка сервиса: gay
+2025-08-24 14:25:28 [INFO] Создание бэкапа: gay -> /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/gay/2025-08-24/gay_2025-08-24_14-25.sql.gz
+2025-08-24 14:25:29 [SUCCESS] Бэкап создан: /Users/stepanorlov/Desktop/linux/bd/postgres-docker2/db_backups/gay/2025-08-24/gay_2025-08-24_14-25.sql.gz
+2025-08-24 14:25:29 [INFO] Удаление бэкапов старше 14 дней для gay
+2025-08-24 14:25:29 [INFO] Завершение бэкапа
+2025-08-24 14:25:29 [STATS] Обработано сервисов: 1
+2025-08-24 14:25:29 [STATS] Успешных бэкапов: 1
+2025-08-24 14:25:29 [STATS] Неудачных бэкапов: 0
